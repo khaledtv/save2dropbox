@@ -26,11 +26,14 @@ line-height:70px;margin: -20px;padding: 8px;}
 </style></head><body><center><h1><big> SAVE URL TO DROPBOX</big></h1><br />
 <img src="/Dropbox-icon.png"  alt="SAVE URL TO DROPBOX"  title="SAVE URL TO DROPBOX"  height="300" width="300"></center><center><form class="form-signin" role="form">
 <input id="url" class="form-control" placeholder="Enter Download URL" required autofocus><br />
-<input id="name" class="form-control" placeholder="Save File As..."><br />
+<input id="file" class="form-control" placeholder="Save File As..."><br />
 <button id="btn_save" class="btn btn-lg btn-primary btn-block" type="button"><h3> Save To Dropbox</h3> </button></form></center>
 <script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="h03hpaauo1e32pg"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="https://kicktv.github.io/save.js"></script><center><!-- counter visitor -->
+<!-- <script type="text/javascript" src="https://kicktv.github.io/save.js"></script> -->
+<script> url.oninput = function() {
+file.value = url.value.split("/").pop();};</script>
+<center><!-- counter visitor -->
 <div style="margin:2px;font-family:tahoma;color:red;font-size:20px;">VIEWS</div>
 <div align=center><a href='https://kicktv.github.io/save'>
 <img src='//www.counter12.com/img-76wa9adaC5Zwz1BZ-29.gif' border='0' alt='free counter'></a></div>
