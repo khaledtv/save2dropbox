@@ -30,8 +30,16 @@ line-height:70px;margin: -20px;padding: 8px;}
 <button id="btn_save" class="btn btn-lg btn-primary btn-block" type="button"><h3> Save To Dropbox</h3> </button></form></center>
 <script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="h03hpaauo1e32pg"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="https://kicktv.github.io/save.js"></script>
-<script> url.oninput = function() {name.value = url.value.split("/").pop();};</script>
+<!-- <script type="text/javascript" src="https://kicktv.github.io/save.js"></script> -->
+<script>
+var options={progress:function(a){var n=Math.round(100*a);
+$(".progress").css("display","inherit"),
+$(".progress-bar").css("width",n+"%").attr("aria-valuenow",n)}};
+$("#btn_save").click(function(){var a=$("#url").val(),
+n=$("#name").val();
+Dropbox.save(a,n,options)}),
+
+url.oninput = function() {name.value = url.value.split("/").pop();};</script>
 <center><!-- counter visitor -->
 <div style="margin:2px;font-family:tahoma;color:red;font-size:20px;">VIEWS</div>
 <div align=center><a href='https://kicktv.github.io/save'>
