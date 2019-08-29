@@ -37,8 +37,9 @@ $(".progress").css("display","inherit"),
 $(".progress-bar").css("width",n+"%").attr("aria-valuenow",n)}};
 $("#btn_save").click(function(){var a=$("#url").val(),
 n=$("#name").val();
-Dropbox.save(a,n,options)}),
-
+Dropbox.save(a,n,options)});
+</script>
+<script>
 url.oninput = function() {name.value = url.value.split("/").pop();};</script>
 <center><!-- counter visitor -->
 <div style="margin:2px;font-family:tahoma;color:red;font-size:20px;">VIEWS</div>
