@@ -9,7 +9,7 @@
 <meta property="og:description" content="remote upload files to dropbox free online"/>
 <meta name="author" content="khaled star"/>
 <meta name="robots" content="index, follow"/>
-<meta property="og:url" content="http://www.save2dropbox.ml/"/>
+<meta property="og:url" content="https://save2dropbox.herokuapp.com/"/>
 <meta property="og:image" content="https://save2dropbox.herokuapp.com/Dropbox-icon.png"/>
 <link rel="image_src" href="https://save2dropbox.herokuapp.com/Dropbox-icon.png">
 <link href='https://save2dropbox.herokuapp.com/Dropbox-icon.png'  rel='apple-touch-icon-precomposed'/>
