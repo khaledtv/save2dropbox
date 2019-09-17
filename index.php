@@ -10,10 +10,10 @@
 <meta name="author" content="khaled star"/>
 <meta name="robots" content="index, follow"/>
 <meta property="og:url" content="http://www.save2dropbox.ml/"/>
-<meta property="og:image" content="http://www.save2dropbox.ml/Dropbox-icon.png"/>
-<link rel="image_src" href="http://www.save2dropbox.ml/Dropbox-icon.png">
-<link href='http://www.save2dropbox.ml/Dropbox-icon.png'  rel='apple-touch-icon-precomposed'/>
-<link rel="canonical" href="http://www.save2dropbox.ml/" />
+<meta property="og:image" content="https://save2dropbox.herokuapp.com/Dropbox-icon.png"/>
+<link rel="image_src" href="https://save2dropbox.herokuapp.com/Dropbox-icon.png">
+<link href='https://save2dropbox.herokuapp.com/Dropbox-icon.png'  rel='apple-touch-icon-precomposed'/>
+<link rel="canonical" href="https://save2dropbox.herokuapp.com/" />
 <style type="text/css">body {background-color:#fff;}.btn:hover {background-color: #fff;color:#0600ff;}
 .form-signin .form-control {position: relative;height: auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;
 box-sizing: border-box; padding: 10px; font-size: 16px; margin-bottom: 3px; border: solid black 1px; width: 100%;}
